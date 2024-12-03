@@ -1,0 +1,235 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Valores padrão de tags e variáveis*/
+@layer base {
+  h1 {
+    @apply text-4xl font-semibold text-white;
+  }
+
+  span {
+    @apply text-[10px] font-bold;
+  }
+
+  path {
+    @apply stroke-2;
+  }
+
+  /* Theme da mamba */
+  .mamba {
+    --scale01: 176 89 220; /* btn hover / focus */
+    --scale02: 115 15 165;
+    --scale03: 90 11 129; /* btn */
+    --scale04: 68 7 98;
+    --scale05: 50 4 72;
+    --scale06: 44 4 63;
+    --scale07: 24 2 34;
+    --scale08: 255 204 0;
+
+    --containerOpacity: 0 0 0;
+
+    --btn: 115 15 165;
+    --btn2: 68 7 98;
+    --btnHover: 50 4 72;
+
+    --text01: 255 255 255;
+    --text02: 176 89 220;
+
+    --bgContainer: 24 2 34;
+
+    /* grid gráfico */
+    --grid: 68 7 98;
+    --line: 255 204 0;
+    --bar: 176 89 220;
+
+    --loader01: 255 204 0 --loader02: 145 12 208 --loader03: 90 11 129
+      --loader04: 254 211 37;
+  }
+
+  /* Theme da 12p */
+  .metodo12p {
+    --scale01: 248 216 93;
+    --scale02: 253 216 70;
+    --scale03: 253 216 70;
+    --scale04: 254 211 37;
+    --scale05: 255 204 0;
+    --scale06: 192 154 0;
+    --scale07: 155 124 0;
+    --scale08: 32 33 35;
+
+    --containerOpacity: 0 0 0;
+
+    --text01: 44 44 44;
+    --text02: 229 224 224;
+
+    --btn: 255 187 17;
+    --btn2: 132 132 132;
+    --btnHover: 229 224 224;
+
+    /* --bgContainer: 20 23 34; */
+    --bgContainer: 43 39 32;
+
+    /* grid gráfico */
+    --grid: 68 7 98;
+    --line: 255 204 0;
+    --bar: 176 89 220;
+
+    --loader01: 255 204 0 --loader02: 208 19 23 --loader03: 255 204 0 --loader04:
+      225 76 1;
+  }
+}
+
+/* Classes que tem estilização pré definida */
+@layer components {
+  .container {
+    margin: 0 auto;
+    width: 80%;
+    border-radius: 12px;
+    padding: 22px 0;
+  }
+}
+
+@layer utilities {
+  @keyframes rotate {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  /* Efeitos de keyframes */
+  @keyframes dash {
+    0% {
+      stroke-dasharray: 1, 200;
+      stroke-dashoffset: 0;
+    }
+    50% {
+      stroke-dasharray: 89, 200;
+      stroke-dashoffset: -35px;
+    }
+    100% {
+      stroke-dasharray: 89, 200;
+      stroke-dashoffset: -124px;
+    }
+  }
+
+  @keyframes color {
+    0%,
+    100% {
+      stroke: #9111d0;
+    }
+    40% {
+      stroke: #ffcc00;
+    }
+    66% {
+      stroke: #5a0b81;
+    }
+    80%,
+    90% {
+      stroke: #9b7c00;
+    }
+  }
+
+  .animate-rotate {
+    animation: rotate 2s linear infinite;
+    transform-origin: center;
+  }
+
+  .animate-dash {
+    stroke-dasharray: 1, 200;
+    stroke-dashoffset: 0;
+    animation:
+      dash 1.5s ease-in-out infinite,
+      color 6s ease-in-out infinite;
+    stroke-linecap: round;
+  }
+}
+
+/* Estilização padrão */
+* {
+  box-sizing: border-box;
+  @apply transition-colors duration-200;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: "Poppins", Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+}
+
+body::before {
+  overflow: hidden;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.7; 
+  animation: zoomBackground 10s ease-in-out infinite;
+  z-index: -1;
+}
+
+/* Imagem para o tema claro */
+body.metodo12p {
+  background-color: #2b2a30;
+}
+
+body.metodo12p::before {
+  background-image: url("/background/12ptotal.png");
+}
+
+body.mamba {
+  background-color: #4a0b6b;
+}
+
+body.mamba::before {
+  background-image: url("/background/bgMamba.svg");
+}
+
+input {
+  border: none;
+}
+
+li {
+  list-style: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+@keyframes zoomBackground {
+  0% {
+    background-size: 115%;
+  }
+  50% {
+    background-size: 125%;
+  }
+  100% {
+    background-size: 115%;
+  }
+}
+
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #444141;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #272424;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: #3d3939;
+}

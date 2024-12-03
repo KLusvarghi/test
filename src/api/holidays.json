@@ -1,0 +1,503 @@
+{
+  "2024": {
+    "1": {
+      "holiday": {
+        "count": 2,
+        "days": [1, 26],
+        "holiday": [
+          "Confraternização Universal",
+          "Aniversário da Cidade de Santos"
+        ]
+      },
+      "weekends": {
+        "count": 8,
+        "days": [
+          [6, 7],
+          [13, 14],
+          [20, 21],
+          [27, 28]
+        ]
+      },
+      "companyRecess": {
+        "count": 0,
+        "days": []
+      }
+    },
+    "2": {
+      "holiday": {
+        "count": 0,
+        "days": [],
+        "holiday": []
+      },
+      "weekends": {
+        "count": 8,
+        "days": [
+          [3, 4],
+          [10, 11],
+          [17, 18],
+          [24, 25]
+        ]
+      },
+      "companyRecess": {
+        "count": 0,
+        "days": []
+      }
+    },
+    "3": {
+      "holiday": {
+        "count": 1,
+        "days": [29],
+        "holiday": ["Paixão de Cristo"]
+      },
+      "weekends": {
+        "count": 10,
+        "days": [
+          [2, 3],
+          [9, 10],
+          [16, 17],
+          [23, 24],
+          [30, 31]
+        ]
+      },
+      "companyRecess": {
+        "count": 0,
+        "days": []
+      }
+    },
+    "4": {
+      "holiday": {
+        "count": 1,
+        "days": [21],
+        "holiday": ["Tiradentes"]
+      },
+      "weekends": {
+        "count": 8,
+        "days": [
+          [6, 7],
+          [13, 14],
+          [20, 21],
+          [27, 28]
+        ]
+      },
+      "companyRecess": {
+        "count": 0,
+        "days": []
+      }
+    },
+    "5": {
+      "holiday": {
+        "count": 2,
+        "days": [1, 30],
+        "holiday": ["Dia do Trabalho", "Corpus Christi"]
+      },
+      "weekends": {
+        "count": 8,
+        "days": [
+          [4, 5],
+          [11, 12],
+          [18, 19],
+          [25, 26]
+        ]
+      },
+      "companyRecess": {
+        "count": 0,
+        "days": []
+      }
+    },
+    "6": {
+      "holiday": {
+        "count": 0,
+        "days": [],
+        "holiday": []
+      },
+      "weekends": {
+        "count": 10,
+        "days": [
+          [1, 2],
+          [8, 9],
+          [15, 16],
+          [22, 23],
+          [29, 30]
+        ]
+      },
+      "companyRecess": {
+        "count": 0,
+        "days": []
+      }
+    },
+    "7": {
+      "holiday": {
+        "count": 1,
+        "days": [9],
+        "holiday": ["Revolução Constitucionalista de 1932"]
+      },
+      "weekends": {
+        "count": 8,
+        "days": [
+          [6, 7],
+          [13, 14],
+          [20, 21],
+          [27, 28]
+        ]
+      },
+      "companyRecess": {
+        "count": 0,
+        "days": []
+      }
+    },
+    "8": {
+      "holiday": {
+        "count": 0,
+        "days": [],
+        "holiday": []
+      },
+      "weekends": {
+        "count": 9,
+        "days": [[3, 4], [10, 11], [17, 18], [24, 25], [31]]
+      },
+      "companyRecess": {
+        "count": 0,
+        "days": []
+      }
+    },
+    "9": {
+      "holiday": {
+        "count": 2,
+        "days": [7, 8],
+        "holiday": ["Independência do Brasil", "Nossa Senhora do Monte Serrat"]
+      },
+      "weekends": {
+        "count": 8,
+        "days": [
+          [7, 8],
+          [14, 15],
+          [21, 22],
+          [28, 29]
+        ]
+      },
+      "companyRecess": {
+        "count": 0,
+        "days": []
+      }
+    },
+    "10": {
+      "holiday": {
+        "count": 2,
+        "days": [12, 28],
+        "holiday": ["Nossa Senhora Aparecida", "Dia do Servidor Público"]
+      },
+      "weekends": {
+        "count": 8,
+        "days": [
+          [5, 6],
+          [12, 13],
+          [19, 20],
+          [26, 27]
+        ]
+      },
+      "companyRecess": {
+        "count": 0,
+        "days": []
+      }
+    },
+    "11": {
+      "holiday": {
+        "count": 3,
+        "days": [2, 15, 20],
+        "holiday": [
+          "Finados",
+          "Proclamação da República",
+          "Dia da Consciência Negra"
+        ]
+      },
+      "weekends": {
+        "count": 9,
+        "days": [[2, 3], [9, 10], [16, 17], [23, 24], [30]]
+      },
+      "companyRecess": {
+        "count": 0,
+        "days": []
+      }
+    },
+    "12": {
+      "holiday": {
+        "count": 1,
+        "days": [25],
+        "holiday": ["Natal"]
+      },
+      "weekends": {
+        "count": 8,
+        "days": [
+          [7, 8],
+          [14, 15],
+          [21, 22],
+          [28, 29]
+        ]
+      },
+      "companyRecess": {
+        "count": 5,
+        "days": [
+          [23, 24],
+          [26, 27],
+          [30, 31]
+        ]
+      }
+    }
+  },
+  "2025": {
+    "1": {
+      "holiday": {
+        "count": 2,
+        "days": [1, 26],
+        "holiday": [
+          "Confraternização Universal",
+          "Aniversário da Cidade de Santos"
+        ]
+      },
+      "weekends": {
+        "count": 8,
+        "days": [
+          [4, 5],
+          [11, 12],
+          [18, 19],
+          [25, 26]
+        ]
+      },
+      "companyRecess": {
+        "count": 0,
+        "days": []
+      }
+    },
+    "2": {
+      "holiday": {
+        "count": 0,
+        "days": [],
+        "holiday": []
+      },
+      "weekends": {
+        "count": 8,
+        "days": [
+          [1, 2],
+          [8, 9],
+          [15, 16],
+          [22, 23]
+        ]
+      },
+      "companyRecess": {
+        "count": 0,
+        "days": []
+      }
+    },
+    "3": {
+      "holiday": {
+        "count": 1,
+        "days": [29],
+        "holiday": ["Paixão de Cristo"]
+      },
+      "weekends": {
+        "count": 10,
+        "days": [
+          [1, 2],
+          [8, 9],
+          [15, 16],
+          [22, 23],
+          [29, 30]
+        ]
+      },
+      "companyRecess": {
+        "count": 0,
+        "days": []
+      }
+    },
+    "4": {
+      "holiday": {
+        "count": 1,
+        "days": [21],
+        "holiday": ["Tiradentes"]
+      },
+      "weekends": {
+        "count": 8,
+        "days": [
+          [5, 6],
+          [12, 13],
+          [19, 20],
+          [26, 27]
+        ]
+      },
+      "companyRecess": {
+        "count": 0,
+        "days": []
+      }
+    },
+    "5": {
+      "holiday": {
+        "count": 2,
+        "days": [1, 29],
+        "holiday": ["Dia do Trabalho", "Corpus Christi"]
+      },
+      "weekends": {
+        "count": 8,
+        "days": [
+          [3, 4],
+          [10, 11],
+          [17, 18],
+          [24, 25]
+        ]
+      },
+      "companyRecess": {
+        "count": 0,
+        "days": []
+      }
+    },
+    "6": {
+      "holiday": {
+        "count": 0,
+        "days": [],
+        "holiday": []
+      },
+      "weekends": {
+        "count": 10,
+        "days": [
+          [7, 8],
+          [14, 15],
+          [21, 22],
+          [28, 29]
+        ]
+      },
+      "companyRecess": {
+        "count": 0,
+        "days": []
+      }
+    },
+    "7": {
+      "holiday": {
+        "count": 1,
+        "days": [9],
+        "holiday": ["Revolução Constitucionalista de 1932"]
+      },
+      "weekends": {
+        "count": 8,
+        "days": [
+          [6, 7],
+          [13, 14],
+          [20, 21],
+          [27, 28]
+        ]
+      },
+      "companyRecess": {
+        "count": 0,
+        "days": []
+      }
+    },
+    "8": {
+      "holiday": {
+        "count": 0,
+        "days": [],
+        "holiday": []
+      },
+      "weekends": {
+        "count": 9,
+        "days": [
+          [2, 3],
+          [9, 10],
+          [16, 17],
+          [23, 24],
+          [30, 31]
+        ]
+      },
+      "companyRecess": {
+        "count": 0,
+        "days": []
+      }
+    },
+    "9": {
+      "holiday": {
+        "count": 2,
+        "days": [7, 8],
+        "holiday": ["Independência do Brasil", "Nossa Senhora do Monte Serrat"]
+      },
+      "weekends": {
+        "count": 8,
+        "days": [
+          [6, 7],
+          [13, 14],
+          [20, 21],
+          [27, 28]
+        ]
+      },
+      "companyRecess": {
+        "count": 0,
+        "days": []
+      }
+    },
+    "10": {
+      "holiday": {
+        "count": 2,
+        "days": [12, 28],
+        "holiday": ["Nossa Senhora Aparecida", "Dia do Servidor Público"]
+      },
+      "weekends": {
+        "count": 8,
+        "days": [
+          [4, 5],
+          [11, 12],
+          [18, 19],
+          [25, 26]
+        ]
+      },
+      "companyRecess": {
+        "count": 0,
+        "days": []
+      }
+    },
+    "11": {
+      "holiday": {
+        "count": 3,
+        "days": [2, 15, 20],
+        "holiday": [
+          "Finados",
+          "Proclamação da República",
+          "Dia da Consciência Negra"
+        ]
+      },
+      "weekends": {
+        "count": 9,
+        "days": [
+          [1, 2],
+          [8, 9],
+          [15, 16],
+          [22, 23],
+          [29, 30]
+        ]
+      },
+      "companyRecess": {
+        "count": 0,
+        "days": []
+      }
+    },
+    "12": {
+      "holiday": {
+        "count": 1,
+        "days": [25],
+        "holiday": ["Natal"]
+      },
+      "weekends": {
+        "count": 8,
+        "days": [
+          [6, 7],
+          [13, 14],
+          [20, 21],
+          [27, 28]
+        ]
+      },
+      "companyRecess": {
+        "count": 5,
+        "days": [
+          [23, 24],
+          [26, 27],
+          [30, 31]
+        ]
+      }
+    }
+  }
+}
